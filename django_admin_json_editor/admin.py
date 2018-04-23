@@ -1,6 +1,7 @@
 import copy
 
 import collections
+import json
 from django import forms
 from django.utils.safestring import mark_safe
 from django.template.loader import render_to_string

@@ -29,7 +29,7 @@ class JSONEditorWidget(forms.Widget):
 
         context = {
             'name': name.replace('-',''),
-            'schema': json.dumps(schema),
+            'schema': schema,
             'data': value,
             'sceditor': int(self._sceditor),
         }
